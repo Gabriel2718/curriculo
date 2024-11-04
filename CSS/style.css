@@ -126,6 +126,10 @@ main ul li{
     list-style-type: disc;
 }
 
+main figure{
+    margin-bottom: 2%;
+}
+
 main figure img{
     height: min-content;
     padding-bottom: 2%;
