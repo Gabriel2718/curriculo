@@ -1,0 +1,153 @@
+/*Fontes*/
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu{
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+}
+
+
+/*Geral*/
+*{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    letter-spacing: .02em;
+}
+
+h1, h2{
+    font-weight: bolder;
+}
+
+h2{
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 140%;
+}
+ 
+a{
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: brown;
+    text-decoration: none;
+}
+
+/*Header*/
+
+header h1{
+    text-align: center;
+    font-size: 300%;
+    padding: 5% 0 5% 0;
+    display: block;
+    background-color: rgb(34, 34, 34);
+}
+
+header figure{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 2% 1% 2% 10%;
+    width: 20%;
+}
+
+header ul{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2% 10% 2% 0;
+    width: 50%;
+}
+
+header ul li{
+    display: block;
+    text-align: left;
+    font-size: 130%;
+    line-height: 200%;
+}
+
+header ul li span{
+    vertical-align: middle;
+    margin: 2% 2% 2% 0;
+}
+
+#img-perfil{
+    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+}
+
+/*Main*/
+main{
+    margin: 0 10% 0 10%;
+}
+
+main h2{
+    font-size: 180%;
+}
+
+main p, main dl, main li, main figcaption{
+    font-size: 150%;
+}
+
+main p{
+    text-align: justify;
+    line-height: 140%;
+}
+
+main dl{
+    text-align: justify;
+    line-height: 140%;
+    padding: 0 0 2% 5%;
+}
+
+main ol li{
+    text-align: justify;
+    line-height: 110%;
+    padding: 0 0 2% 1%;
+    margin-left: 5%;
+    list-style-type: decimal;
+}
+
+main ul li{
+    text-align: justify;
+    line-height: 110%;
+    padding: 0 0 2% 1%;
+    margin-left: 5%;
+    list-style-type: disc;
+}
+
+main figure img{
+    height: min-content;
+    padding-bottom: 2%;
+    width: 25%;
+}
+
+main figure figcaption{
+    vertical-align: bottom;
+}
+
+/*Footer*/
+footer{
+    background-color: rgb(34, 34, 34);
+    line-height: 150%;
+    font-size: 140%;
+    margin-top: 3%;
+}
+
+footer p{
+    margin: 0 10% 0 10%;
+    background-color: rgb(34, 34, 34);
+    padding: 2% 0 2% 0;
+    text-align: center;
+    font-style: oblique;
+}
