@@ -29,9 +29,12 @@ h1, h2{
 
 h2{
     text-align: left;
-    margin-top: 5%;
     margin-bottom: 2%;
     font-size: 140%;
+}
+
+section{
+    margin-top: 5%;
 }
  
 a{
@@ -66,6 +69,7 @@ header ul{
     vertical-align: middle;
     padding: 2% 10% 2% 0;
     width: 50%;
+    text-align: justify;
 }
 
 header ul li{
@@ -154,4 +158,77 @@ footer p{
     padding: 2% 0 2% 0;
     text-align: center;
     font-style: oblique;
+}
+
+
+/*Dispositivos móveis*/
+@media (max-width: 768px) {
+    /*Geral*/
+    h2{
+        margin-bottom: 5%;
+        line-height: 150%;
+    }        
+
+    /*Header*/
+    header h1{
+        font-size: 200%;
+        padding: 10% auto 5% auto;
+    }
+
+    header figure{
+        display: block;
+        margin: 5% auto 5% auto;
+        width: fit-content;
+    }
+
+    #img-perfil{
+        width: 100%;
+    }
+
+    header ul{
+        display: block;
+        padding: auto;
+        margin: auto auto auto 10%;
+    }
+
+    header ul li{
+        display: block;
+        font-size: 130%;
+        line-height: 200%;
+        margin-bottom: 10%;
+    }
+
+    /*Main*/
+    section{
+        margin-top: 15%;
+    }
+
+    main figure{
+        display: block;
+        margin: 5% auto 5% auto;
+        width: fit-content;
+    }
+
+    main figure img{
+        width: 100%;
+    }
+
+    main figure figcaption{
+        margin: 5% 0 10% 0;
+        line-height: 150%;
+    }
+
+    main ol li, main ul li{
+        line-height: 130%;
+        margin-bottom: 5%;
+    }
+
+    main dl{
+        margin-bottom: 5%;
+    }
+
+    /*Footer*/
+    footer{
+        margin-top: 10%;
+    }
 }
