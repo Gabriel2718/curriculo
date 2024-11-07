@@ -136,8 +136,9 @@ main figure{
 
 main figure img{
     height: min-content;
-    padding-bottom: 2%;
+    margin-bottom: 2%;
     width: 25%;
+    border: 5px solid rgb(34, 34, 34);
 }
 
 main figure figcaption{
