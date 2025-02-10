@@ -15,7 +15,6 @@
     font-style: normal;
 }
 
-
 /*Geral*/
 *{
     background-color: rgb(22, 22, 22);
@@ -30,7 +29,7 @@ h1, h2{
 h2{
     text-align: left;
     margin-bottom: 2%;
-    font-size: 140%;
+    font-size: 2.5rem;
 }
 
 section{
@@ -48,7 +47,6 @@ a:hover{
 }
 
 /*Header*/
-
 header h1{
     text-align: center;
     font-size: 300%;
@@ -59,100 +57,67 @@ header h1{
 
 header .contato{
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 header figure{
     display: inline-block;
     vertical-align: middle;
     margin: 2% 0 2% 10%;
-    width: 25%;
-    height: 25%;
-}
-
-header ul{
-    display: inline-block;
-    vertical-align: middle;
-    width: 50%;
-    text-align: justify;
-}
-
-header ul li{
-    display: block;
-    text-align: left;
-    font-size: 130%;
-    line-height: 200%;
-}
-
-header ul li span{
-    vertical-align: middle;
-    margin: 2% 2% 2% 0;
+    padding-right: 5%;
 }
 
 #img-perfil{
     border-radius: 50%;
-    width: 70%;
-    height: 70%;
+}
+
+header .contato ul{
+    display: flex;
+    flex-direction: column;
+}
+
+header .contato li{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: .5% 0;
+    font-size: 1.5rem;
+    width: 110%
+}
+
+header .contato li a{
+    margin-left: 2%;
+}
+
+header .contato .material-icons{
+    margin-right: 5%;
+    font-size: 2.5rem;
 }
 
 /*Main*/
 main{
-    margin: 0 10% 0 10%;
+    margin: 0 5%;
 }
 
-main h2{
-    font-size: 180%;
-}
-
-main p, main dl, main li, main figcaption{
-    font-size: 150%;
-}
-
-main p{
-    text-align: justify;
-    line-height: 140%;
-}
-
-main dl{
-    text-align: justify;
-    line-height: 140%;
-    padding: 0 0 2% 5%;
-}
-
-main ol li{
-    text-align: justify;
-    line-height: 110%;
-    padding: 0 0 2% 1%;
-    margin-left: 5%;
-    list-style-type: decimal;
-}
-
-main ul li{
-    text-align: justify;
-    line-height: 110%;
-    padding: 0 0 2% 1%;
-    margin-left: 5%;
-    list-style-type: disc;
+main p, main li, main dt, main dd{
+    font-size: 1.5rem;
+    line-height: 125%;
 }
 
 main figure{
-    margin-bottom: 2%;
+    width: 100%;
 }
 
-main figure img{
-    height: min-content;
-    margin-bottom: 2%;
-    width: 25%;
-    border: 5px solid rgb(34, 34, 34);
+main img{
+    width: 25rem;
+    height: 25rem;
 }
 
 main figure figcaption{
-    vertical-align: bottom;
-}
-
-main li p{
-    font-size: 100%;
+    font-size: 1.3rem;
+    margin: 1% 0 4% 0
 }
 
 /*Footer*/
@@ -164,82 +129,9 @@ footer{
 }
 
 footer p{
-    margin: 0 10% 0 10%;
+    margin: 10% 10% 0 10%;
     background-color: rgb(34, 34, 34);
     padding: 2% 0 2% 0;
     text-align: center;
     font-style: oblique;
-}
-
-
-/*Dispositivos móveis*/
-@media (max-width: 768px) {
-    /*Geral*/
-    h2{
-        margin-bottom: 5%;
-        line-height: 150%;
-    }        
-
-    /*Header*/
-    header h1{
-        font-size: 200%;
-        padding: 10% auto 5% auto;
-    }
-
-    header figure{
-        display: block;
-        margin: 5% auto 5% auto;
-        width: fit-content;
-    }
-
-    #img-perfil{
-        width: 100%;
-    }
-
-    header ul{
-        display: block;
-        padding: auto;
-        margin: auto auto auto 10%;
-    }
-
-    header ul li{
-        display: block;
-        font-size: 130%;
-        line-height: 200%;
-        margin-bottom: 10%;
-    }
-
-    /*Main*/
-    section{
-        margin-top: 15%;
-    }
-
-    main figure{
-        display: block;
-        margin: 5% auto 5% auto;
-        width: fit-content;
-    }
-
-    main figure img{
-        width: 100%;
-    }
-
-    main figure figcaption{
-        margin: 5% 0 10% 0;
-        line-height: 150%;
-    }
-
-    main ol li, main ul li{
-        line-height: 130%;
-        margin-bottom: 5%;
-    }
-
-    main dl{
-        margin-bottom: 5%;
-    }
-
-    /*Footer*/
-    footer{
-        margin-top: 10%;
-    }
 }
