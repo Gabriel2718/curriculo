@@ -22,6 +22,10 @@
     letter-spacing: .02em;
 }
 
+body{
+    width: 100%;
+}
+
 h1, h2{
     font-weight: bolder;
 }
@@ -83,7 +87,7 @@ header .contato li{
     align-items: center;
     flex-wrap: nowrap;
     padding: .5% 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 110%
 }
 
@@ -112,8 +116,8 @@ main figure{
 }
 
 main img{
-    width: 25rem;
-    height: 25rem;
+    width: 20rem;
+    height: 20rem;
 }
 
 main figure figcaption{
