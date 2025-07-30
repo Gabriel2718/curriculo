@@ -94,13 +94,19 @@ header .contato li{
     width: 110%
 }
 
-header .contato li a{
+header .contato li{
     margin-left: 2%;
 }
 
 header .contato .material-icons{
     margin-right: 5%;
     font-size: 2.5rem;
+}
+
+#icon-linkedin, #icon-instagram, #icon-github {
+    width: 40px;
+    height: 40px;
+    margin-right: 5%;
 }
 
 /*Main*/
