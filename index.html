@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>Gabriel Carvalho Reginato</title>
+    <title>Gabriel Carvalho Reginato - Página Inicial</title>
 
     <!--Style-->
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +20,13 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <header>
+        <nav>
+            <a href="index.html"><button class="pagina-atual">Página Inicial</button></a>
+            <a href="portfolio.html"><button>Portfólio</button></a>
+        </nav>
+
         <h1 class="ubuntu">Gabriel Carvalho Reginato</h1>
 
         <div class="contato">
@@ -31,9 +38,10 @@
                 <li><span class="material-icons">call</span>(43) 99668 1098</li>
                 <li><img src="assets/images/icon-linkedin.png" id="icon-linkedin"><a href="https://www.linkedin.com/in/gabriel-carvalho-reginato/" target="_blank">Gabriel Carvalho Reginato</a></li>
                 <li><img src="assets/images/icon-github.png" id="icon-github"><a href="https://github.com/Gabriel2718" target="_blank">github.com/Gabriel2718</a></li>
-                <li><img src="assets/images/icon-instagram.png" id="icon-instagram"><a href="https://www.instagram.com/gabrielreginato.dev/" target="_blank">gabrielreginato.dev</a></li>
+                <li><img src="assets/images/icon-instagram.png" id="icon-instagram"><a hrefs="https://www.instagram.com/gabrielreginato.dev/" target="_blank">gabrielreginato.dev</a></li>
             </ul>
         </div>
+        
     </header>
     
     <main>
@@ -82,30 +90,7 @@
                 como Scrum e XP.
             </p>
         </section>
-
-        <section class="dm-sans">
-            <h2 class="roboto-thin">Projetos</h2>
-            <ul class="projetos">
-                <li><p><a href="https://gabriel2718.github.io/trabalho-front-end/index.html" target="_blank" rel="external">Saúde Paraná</a>
-                    - Página estática desenvolvida com <strong>HTML e CSS</strong> para a disciplina de Desenvolvimento Front-End da graduação em Análise e Desenvolvimento de Sistemas. 
-                    A página visa apresentar informações sobre algumas das doenças endêmicas mais comuns Paraná.
-                </p></li>
-                <li><p><a href="https://github.com/Gabriel2718/Coinverter" target="_blank" rel="external">Coinverter</a>
-                    - Aplicativo para Android, desenvolvido com <strong>Flutter</strong>, que realiza conversões entre moedas (Real, Dólar, Euro e Bitcoin) utilizando 
-                    uma API (AwesomeAPI) para obter os valores atualizados de cada moeda.
-                </p></li>
-                <li><p><a href="https://github.com/Gabriel2718/GIFinder" target="_blank" rel="external">GIFinder</a>
-                    - Aplicativo para Android, desenvolvido com <strong>Flutter</strong>, que permite ao usuário visualizar, pesquisar (por meio de filtros inseridos na requisição) e compartilhar GIFs obtidos da API do site
-                    <a href="https://giphy.com" target="_blank" rel="external noreferrer noopener">GIPHY</a>.
-                </p></li>
-                <li><p><a href="https://github.com/Gabriel2718/agenda_contatos" target="_blank" rel="external">Agenda de Contatos</a>
-                    - Aplicativo para Android, desenvolvido com <strong>Flutter</strong>, no qual o usuário pode cadastrar informações de um contato (nome, e-mail, telefone e uma foto),
-                    bem como editá-las e removê-las.
-                </p></li>
-            </ul>
-        </section>
     </main>
-
     <footer class="dm-sans">
         <p>Curriculum Vitae - Gabriel Carvalho Reginato - 2025</p>
     </footer>
