@@ -115,7 +115,7 @@ main{
     margin: 0 10%;
 }
 
-main p, main li, main dt, main dd{
+main p, main li{
     font-size: 1.5rem;
     line-height: 150%;
     text-align: justify;
@@ -125,17 +125,18 @@ main ul li{
     list-style-type: disc;
 }
 
-main dl{
-    margin-bottom: 2%;
+.projetos {
+    margin-bottom: 5%;
 }
 
-main .projetos li {
-    margin-bottom: 2%;
-}
-
-main .projetos strong {
+ strong {
     font-weight: bold;
     color: rgb(255, 197, 126);
+}
+
+section h2 {
+    margin: 2% 0;
+    font-size: 2.75rem;
 }
 
 /*Footer*/
@@ -143,7 +144,6 @@ footer{
     background-color: rgb(34, 34, 34);
     line-height: 150%;
     font-size: 140%;
-    margin-top: 3%;
 }
 
 footer p{
